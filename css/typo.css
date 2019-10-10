@@ -1,0 +1,22 @@
+body{
+  background: rgb(241, 222, 66);
+}
+
+header {
+    background: rgba(0, 0, 0, 1);
+    min-height: 30vh;
+    color: #fff;
+
+}
+
+article {
+  min-height: 60vh;
+
+}
+
+footer {
+  background: rgba(0, 0, 0, 1);
+  min-height: 20vh;
+  color: #fff;
+
+}
