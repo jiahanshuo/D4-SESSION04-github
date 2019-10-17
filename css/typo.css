@@ -1,0 +1,43 @@
+/* body 默认样式 */
+body {
+    font-family: 'ABeeZee', sans-serif;
+    margin: 0;
+}
+
+p, h2, h3 {
+    text-align: justify;
+}
+
+/* 主标题字体样式 */
+.header h1 {
+    font-size: 120px;
+    font-family: 'Mansalva', cursive;
+    text-align: center;
+    color: white;
+}
+
+.abeille h2 {}
+
+.intro {
+	/*font-size: ;*/
+}
+
+.info h3 {}
+
+.bt {
+    text-align: center;
+	/*font-size: ;*/
+}
+
+.main h2 {}
+
+.contenu {
+    font-size: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.next, .pre {
+	font-size: 30px;
+	text-align: center;
+}
+
