@@ -1,22 +1,43 @@
-body{
-  background: rgb(241, 222, 66);
+/* body 默认样式 */
+body {
+    font-family: 'ABeeZee', sans-serif;
+    margin: 0;
 }
 
-header {
-    background: rgba(0, 0, 0, 1);
-    min-height: 30vh;
-    color: #fff;
-
+p, h2, h3 {
+    text-align: justify;
 }
 
-article {
-  min-height: 60vh;
-
+/* 主标题字体样式 */
+.header h1 {
+    font-size: 120px;
+    font-family: 'Mansalva', cursive;
+    text-align: center;
+    color: white;
 }
 
-footer {
-  background: rgba(0, 0, 0, 1);
-  min-height: 20vh;
-  color: #fff;
+.abeille h2 {}
 
+.intro {
+	/*font-size: ;*/
 }
+
+.info h3 {}
+
+.bt {
+    text-align: center;
+	/*font-size: ;*/
+}
+
+.main h2 {}
+
+.contenu {
+    font-size: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.next, .pre {
+	font-size: 30px;
+	text-align: center;
+}
+
