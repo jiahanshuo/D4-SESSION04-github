@@ -1,11 +1,12 @@
 /* body 默认样式 */
 body {
-    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Concert One', cursive;
     margin: 0;
 }
 
 p, h2, h3 {
     text-align: justify;
+    font-family: 'Kalam', cursive;
 }
 
 /* 主标题字体样式 */
@@ -14,6 +15,11 @@ p, h2, h3 {
     font-family: 'Mansalva', cursive;
     text-align: center;
     color: white;
+}
+
+.nav a {
+    font-size: 28px;
+    font-family: 'Indie Flower', cursive;
 }
 
 .abeille h2 {}
@@ -32,12 +38,11 @@ p, h2, h3 {
 .main h2 {}
 
 .contenu {
-    font-size: 30px;
-	font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 
 .next, .pre {
 	font-size: 30px;
 	text-align: center;
 }
-

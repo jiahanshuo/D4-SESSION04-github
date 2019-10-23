@@ -8,8 +8,26 @@
     background: rgb(241, 222, 66);
 }
 
+.nav {
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: hidden;
+    background-color: rgb(241, 222, 66);
+    display: flex;
+}
+.nav a {
+    color: black;
+    text-align: center;
+    padding: 16px 45px;
+    text-decoration: none;
+}
+.nav a:hover {
+    background-color: green;
+    color: white;
+}
+
 /* 列容器 */
-.row {  
+.row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
@@ -26,7 +44,7 @@
 }
 
 /* 主要的内容区域 */
-.main {   
+.main {
     -ms-flex: 80%; /* IE10 */
     flex: 80%;
     background-color: white;
@@ -73,7 +91,7 @@
 
 /* 响应式布局 - 在屏幕设备宽度尺寸小于 700px 时, 让两栏上下堆叠显示 */
 @media screen and (max-width: 700px) {
-    .row {   
+    .row {
         flex-direction: column;
     }
 }
